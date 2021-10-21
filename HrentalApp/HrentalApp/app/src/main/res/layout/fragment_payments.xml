@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payments">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Single Rooms"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:text="3500"
+            android:layout_column="1" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="Bed sitters"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000"
+            android:layout_column="1" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="1 bedroom"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10,000"
+            android:layout_column="1" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:text="2 bedroom"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16,000"
+            android:layout_column="1" />
+
+    </TableRow>
+
+</TableLayout>
